@@ -5,11 +5,11 @@ localStorage.removeItem('brand')
 
 
 
-const great = () => {
-    console.log('Hello');
-}
+// const great = () => {
+//     console.log('Hello');
+// }
 
-setTimeout(great, 3000)
+// setTimeout(great, 3000)
 
 
 // setTimeout(() => {
@@ -20,6 +20,15 @@ setTimeout(great, 3000)
 setTimeout(() => {
     console.log(1)
 }, 0)
+for (let i = 0; i < 10000; i++) {
+    console.log('loop')
+}
+for (let i = 0; i < 10000; i++) {
+    console.log('loop')
+}
+for (let i = 0; i < 10000; i++) {
+    console.log('loop')
+}
 for (let i = 0; i < 10000; i++) {
     console.log('loop')
 }
